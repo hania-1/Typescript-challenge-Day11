@@ -1,4 +1,4 @@
-/*let number: number [] =[1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10]
+let number: number [] =[1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10]
 number.forEach (number=> {
 let suffix= "th" ;
 if(number === 1) {
@@ -9,13 +9,14 @@ suffix= ("st")
     suffix= ("rd")
 }
     console.log (`${number}) ${suffix} `)
-})*/
-/*let username: string []= [];
+})
+
+let username: string []= [];
 if (username.length ===0){
     console.log("we have to find users!")
 }else {
 
-}*/
+}
 var currentusers = ["user1", "user2", "user3", "admin"];
 var newusers = ["user1", "user2", "user3", "admin"];
 newusers.forEach(function (newUsers) {
